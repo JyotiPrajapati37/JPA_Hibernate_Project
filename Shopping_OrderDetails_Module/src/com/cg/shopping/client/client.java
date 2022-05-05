@@ -37,6 +37,7 @@ public class client {
 		order.setPaymentMode("cash delivery");
 		order.setShopId(102);	
 		service.addOrder(order);
+		System.out.println("Record added Successfully!!!" );
 		
 		//Retrieve
 		/*
@@ -50,13 +51,13 @@ public class client {
 		order=service.searchOrderById(1);
 		order.setPaymentMode("google pay");
 		service.updateOrder(order);
-		System.out.println("Update is Successfully");*/
+		System.out.println(" Record Update is Successfully");*/
 		
 		//Delete
 		/*
 		order = service.searchOrderById(2);
 		service.deleteOrder(order);
-		System.out.println("Delete is sucessful");*/
+		System.out.println(" Record Delete is Successfully");*/
 		
 		
 	
